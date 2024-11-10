@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gaming Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Gaming Blog Logo">
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Guides</a></li>
+                <li><a href="#">eSports</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <div class="search-container">
+            <form action="#" method="GET">
+                <input type="text" id="search-input" placeholder="Search..." name="search">
+                <button type="submit" id="search-btn">
+                    🔍
+                </button>
+            </form>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- Featured Article/Highlight -->
+        <section class="featured-article">
+            <h2>Featured Article: The Legend of Zelda - A Masterpiece</h2>
+            <img src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58" alt="Zelda Game" class="featured-image">
+            <p>Discover why 'The Legend of Zelda: Tears of the Kingdom' is a true gaming masterpiece...</p>
+        </section>
+
+        <!-- Trending News -->
+        <section class="trending-news">
+            <h3>Trending News</h3>
+            <div class="news-item">
+                <h4><a href="#">Upcoming Game Releases in 2024</a></h4>
+                <p>Get ready for the most anticipated game releases coming your way in 2024...</p>
+            </div>
+            <div class="news-item">
+                <h4><a href="#">eSports Tournaments This Month</a></h4>
+                <p>Check out the top eSports tournaments happening this month and which teams to watch...</p>
+            </div>
+        </section>
+
+        <!-- Game Reviews -->
+        <section class="game-reviews">
+            <h3>Latest Game Reviews</h3>
+            <div class="review-item">
+                <img src="https://image.s-bol.com/i/Ha9RfPHpjDgdgE8a/mg3YGPokJ4rR=w550-h840-t" alt="Game 1" class="review-image">
+                <div class="review-text">
+                    <h4>Cyberpunk 2077 Review</h4>
+                    <p>A detailed review of the revamped Cyberpunk 2077. Is it worth playing now?</p>
+                    <p class="review-score">Rating: 8/10</p>
+                    <a href="#" class="read-more-btn">Read Full Review</a>
+                </div>
+            </div>
+            <div class="review-item">
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202102/0918/qw9DeDwQm0ahQ3jae3jPUuHD.jpg?w=620&thumb=false" alt="Game 2" class="review-image">
+                <div class="review-text">
+                    <h4>Assassin's Creed Valhalla Review</h4>
+                    <p>Explore the Viking world in this action-packed review of Assassin's Creed Valhalla...</p>
+                    <p class="review-score">Rating: 9/10</p>
+                    <a href="#" class="read-more-btn">Read Full Review</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Articles -->
+        <section class="latest-articles">
+            <h3>Latest Articles</h3>
+            <div class="articles-grid">
+                <div class="article-item">
+                    <img src="https://www.exitlag.com/blog/wp-content/uploads/2024/09/ExitLag-FPS-Boost-How-to-Maximize-Your-Gaming-Performance-Today.webp" alt="Game Guide">
+                    <h4><a href="#">How to Maximize Your FPS in Warzone</a></h4>
+                    <p>Tips and tricks to increase your FPS and gameplay performance...</p>
+                </div>
+
+                <div class="article-item">
+                    <img src="https://images.1v9.gg/aram%20clash%20league%20of%20legends-880f94257738.webp" alt="Game Tips">
+                    <h4><a href="#">Best Strategies for Winning in League of Legends</a></h4>
+                    <p>Master League of Legends with these expert strategies...</p>
+                </div>
+
+                <div class="article-item">
+                    <img src="https://www.digitaltrends.com/wp-content/uploads/2023/11/ps5-on-table.jpg?fit=720%2C720&p=1" alt="Game News">
+                    <h4><a href="#">Top 5 Upcoming Game Consoles</a></h4>
+                    <p>Looking for the best new console? Check out our breakdown of the top 5...</p>
+                </div>
+
+                <div class="article-item">
+                    <img src="https://images.1v9.gg/aram%20clash%20league%20of%20legends-880f94257738.webp" alt="Game Tips">
+                    <h4><a href="#">Best Strategies for Winning in League of Legends</a></h4>
+                    <p>Master League of Legends with these expert strategies...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+       <!-- Sidebar Section -->
+       <aside class="sidebar">
+        <!-- Categories Section -->
+        <section class="sidebar-section categories">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Game Reviews</a></li>
+                <li><a href="#">Game News</a></li>
+                <li><a href="#">How-to Guides</a></li>
+                <li><a href="#">eSports & Tournaments</a></li>
+                <li><a href="#">Gaming Gear</a></li>
+                <li><a href="#">Indie Games</a></li>
+                <li><a href="#">Mobile Games</a></li>
+            </ul>
+        </section>
+
+        <!-- Top Posts Section -->
+        <section class="sidebar-section top-posts">
+            <h3>Top Posts</h3>
+            <ul>
+                <li><a href="#">How to Build Your Gaming PC</a></li>
+                <li><a href="#">Best Games for Streaming on Twitch</a></li>
+                <li><a href="#">Top 10 eSports Teams to Watch</a></li>
+            </ul>
+        </section>
+
+        <!-- Newsletter Signup Section -->
+        <section class="sidebar-section newsletter-signup">
+            <h3>Subscribe to our Newsletter</h3>
+            <form action="#">
+                <input type="email" placeholder="Your Email Address" required />
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </aside>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.jpg" alt="Gaming Blog Logo">
+            </div>
+            <div class="footer-links">
+                <div class="contact-info">
+                    <h4>Contact Us</h4>
+                    <p>Email: contact@gamingblog.com</p>
+                    <p>Phone: +123 456 789</p>
+                </div>
+                <div class="about-blog">
+                    <h4>About Us</h4>
+                    <p>Gaming Blog is your go-to source for all things gaming, offering reviews, news, and gaming guides.</p>
+                </div>
+                <div class="legal-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#" class="social-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/600px-Facebook_Logo_2023.png?20231011121526" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png?20220518162235" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/640px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gaming Blog. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
